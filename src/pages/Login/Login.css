@@ -1,0 +1,66 @@
+.Login-container {
+  background-image: url('../../../public/images/home.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(40px); /* Adjust blur intensity as desired */
+  min-height: 100vh; /* Ensure the container covers the entire viewport height */
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value as desired */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+  
+  .Login-heading {
+    color: rgba(16,89,44,.94);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Login-form {
+    width: 100%;
+    max-width: 300px; /* Limit the width of the form */
+  }
+  
+  .Login-label {
+    color: #555;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left; /* Align labels to the left */
+  }
+  
+  .Login-input {
+    width: 90%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .Login-button {
+    background-color: rgba(16,89,44,.94);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Login-button:hover {
+    background-color: #1D9455;
+  }
+  
+  .Login-error {
+    color: #ff5f6d;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  

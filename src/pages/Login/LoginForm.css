@@ -1,0 +1,46 @@
+.background-image {
+    background-image: url('../../../public/images/drones.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Adjust blur intensity as desired */
+  }
+  
+  .login-form-container {
+    background-color: rgba(255, 255, 255); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* White shadow around the content */
+    text-align: center;
+  }
+  
+  .login-form-heading {
+    color: rgba(16,89,44,.94);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+  }
+  
+  .login-form-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 2rem; /* Increased padding horizontally to create spacing between buttons */
+    border-radius: 4px;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+    display: block; /* Display as block to prevent inline behavior */
+  }
+  
+  .login-form-link:hover {
+    background-color: #1D9455; /* Semi-transparent white on hover */
+  }
+  
+  .login-form-admin-link {
+    background-color: rgba(16,89,44,.94); /* Reddish color for admin link */
+  }
+  
+  .login-form-user-link {
+    background-color: rgba(16,89,44,.94); /* Bluish color for user link */
+  }

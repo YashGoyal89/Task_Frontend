@@ -1,0 +1,18 @@
+/* Home.css */
+.home-container {
+  background-image: url('../../../public/images/homedrone.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Change to flex-start to align items at the top */
+  align-items: center;
+  backdrop-filter: blur(40px); /* Adjust blur intensity as desired */
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  margin-top: 4; /* Remove default margin */
+}
